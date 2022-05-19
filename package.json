@@ -1,0 +1,64 @@
+{
+  "name": "eslint-config-kross",
+  "version": "1.0.0",
+  "description": "Unified eslint configurations I use with all projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "files": [
+    "index.js",
+    "node.js",
+    "browser.js",
+    "react.js",
+    "next.js",
+    "babel.js",
+    "tailwindcss.js",
+    "storybook.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleRoss/eslint-config-kross.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "xo",
+    "react",
+    "browser",
+    "node"
+  ],
+  "author": "Kyle Ross <thejavascriptguy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KyleRoss/eslint-config-kross/issues"
+  },
+  "homepage": "https://github.com/KyleRoss/eslint-config-kross#readme",
+  "peerDependencies": {
+    "eslint": "^8.15.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "eslint": "^8.15.0",
+    "husky": "^8.0.1",
+    "semantic-release": "^19.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/eslint-plugin": "^7.17.7",
+    "@next/eslint-plugin-next": "^12.1.6",
+    "eslint-config-xo-react": "^0.27.0",
+    "eslint-config-xo-space": "^0.33.0",
+    "eslint-plugin-css-modules": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-mdx": "^1.17.0",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-tailwindcss": "^3.5.0"
+  }
+}

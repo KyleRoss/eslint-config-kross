@@ -1,0 +1,30 @@
+{
+  // Set the tab size to 2 spaces
+  "editor.tabSize": 2,
+  // Only use spaces, not tabs
+  "editor.insertSpaces": true,
+  // Automatically trim added whitespace from files
+  "editor.trimAutoWhitespace": true,
+  // Enable ESLint to auto-fix files on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // Change corresponding tags
+  "editor.linkedEditing": true,
+  // Insert a blank new line at the end of every file on save
+  "files.insertFinalNewline": true,
+  // Trim multiple new lines at the end of every file on save
+  "files.trimFinalNewlines": true,
+  // Trim all trailing whitespace
+  "files.trimTrailingWhitespace": true,
+  // Disable prettier if the user has it installed
+  "prettier.enable": false,
+  "editor.snippetSuggestions": "top",
+  "eslint.validate": [
+    "javascript"
+  ],
+  "eslint.packageManager": "npm",
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  }
+}
