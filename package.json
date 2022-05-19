@@ -15,7 +15,8 @@
     "next.js",
     "babel.js",
     "tailwindcss.js",
-    "storybook.js"
+    "storybook.js",
+    "baseRules.js"
   ],
   "repository": {
     "type": "git",
