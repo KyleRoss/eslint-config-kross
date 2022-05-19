@@ -1,6 +1,6 @@
 # eslint-config-kross
 
-![npm](https://img.shields.io/npm/v/eslint-config-kross) ![npm](https://img.shields.io/npm/dt/eslint-config-kross) ![GitHub](https://img.shields.io/github/license/KyleRoss/eslint-config-kross)
+[![npm](https://img.shields.io/npm/v/eslint-config-kross)](https://www.npmjs.com/package/eslint-config-kross) [![npm](https://img.shields.io/npm/dt/eslint-config-kross)](https://www.npmjs.com/package/eslint-config-kross) [![GitHub](https://img.shields.io/github/license/KyleRoss/eslint-config-kross)](https://github.com/KyleRoss/eslint-config-kross/blob/main/LICENSE)
 
 Modular ESLint configurations used for various projects to keep code consistent. These ESLint configurations utilize [eslint-config-xo-space](https://github.com/xojs/eslint-config-xo-space) under the hood and adjusts a handful of rules to relax the strictness. Given that this configuration is modular, you are able to use the pieces that you need for your project.
 
