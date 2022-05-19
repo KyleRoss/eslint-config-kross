@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/KyleRoss/eslint-config-kross/compare/v1.1.0...v1.1.1) (2022-05-19)
+
+
+### Bug Fixes
+
+* add `baseRules.js` to `files` array in package.json ([f2ad1c7](https://github.com/KyleRoss/eslint-config-kross/commit/f2ad1c77042816ae736138f25e7f1bc86b04ea29))
+
 # [1.1.0](https://github.com/KyleRoss/eslint-config-kross/compare/v1.0.0...v1.1.0) (2022-05-19)
 
 
