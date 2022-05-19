@@ -56,7 +56,7 @@ You will need to create an ESLint configuration file within the root of your pro
    root: true
    
    extends:
-   	- 'kross'
+     - 'kross'
    ```
 
 4. Manipulate the `extends` array to set your desired [Base Config](#base-configs) and optionally, any [Submodules](#submodules) you need.
@@ -83,7 +83,7 @@ This is the root level config that other base configs are extended from. It cont
 
 ```yaml
 extends:
-	- 'kross'
+  - 'kross'
 ```
 
 
@@ -94,7 +94,7 @@ Base config for Node.js applications.
 
 ```yaml
 extends:
-	- 'kross/node'
+  - 'kross/node'
 ```
 
 
@@ -105,7 +105,7 @@ Base config for any browser applications/websites. Useful for vanilla JS or exte
 
 ```yaml
 extends:
-	- 'kross/browser'
+  - 'kross/browser'
 ```
 
 
@@ -116,7 +116,7 @@ Base config for typical React applications which extends `kross/browser`. Adds i
 
 ```yaml
 extends:
-	- 'kross/react'
+  - 'kross/react'
 ```
 
 
@@ -127,7 +127,7 @@ Base config for Next.js applications which extends `kross/react`. Adds in suppor
 
 ```yaml
 extends:
-	- 'kross/next'
+  - 'kross/next'
 ```
 
 
@@ -169,10 +169,10 @@ Below are some examples of common combinations of base configs and submodules fo
 root: true
 
 extends:
-	- 'kross/next'
-	- 'kross/babel'
-	- 'kross/tailwindcss'
-	- 'kross/storybook'
+  - 'kross/next'
+  - 'kross/babel'
+  - 'kross/tailwindcss'
+  - 'kross/storybook'
 ```
 
 *The babel submodule is included in the example above given a lot of Next.js applications are still using babel over swc. If you are using swc, you may remove the `kross/babel` submodule from the config.*
@@ -186,8 +186,8 @@ extends:
 root: true
 
 extends:
-	- 'kross/node'
-	- 'kross/babel'
+  - 'kross/node'
+  - 'kross/babel'
 ```
 
 
@@ -199,7 +199,7 @@ extends:
 root: true
 
 extends:
-	- 'kross/node'
+  - 'kross/node'
 ```
 
 
@@ -211,8 +211,8 @@ extends:
 root: true
 
 extends:
-	- 'kross/react',
-	- 'kross/tailwindcss'
+  - 'kross/react',
+  - 'kross/tailwindcss'
 ```
 
 
