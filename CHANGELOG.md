@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/KyleRoss/eslint-config-kross/compare/v1.0.0...v1.1.0) (2022-05-19)
+
+
+### Bug Fixes
+
+* include base rules into browser base config to override xo-space/browser ([a0fe4df](https://github.com/KyleRoss/eslint-config-kross/commit/a0fe4dffe886faeccc3452694b18e078654f3c01))
+
+
+### Features
+
+* move base rule overrides out so they can be reusable ([ecaae05](https://github.com/KyleRoss/eslint-config-kross/commit/ecaae0561345445f6b5a49da6587bfa4f2050580))
+
 # 1.0.0 (2022-05-19)
 
 
